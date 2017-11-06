@@ -1,0 +1,207 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+
+html, 
+body {
+	font-family: arial, sans-serif;
+}
+
+.container {
+	max-width: 1400px;
+}
+
+.top {
+	top: 0px;	
+	background-color: #fafafa;
+/*	border-bottom: 1px solid #afafe9; */
+	width: 100%; 
+	height: 6em;
+}
+
+#glogo {
+	display: inline-block;
+	float: left;
+	margin: 25px 15px 0 12px;
+	
+}
+
+#searchBox {
+	display: inline-block;
+	float: left;
+	margin-top: 22px;
+	height: 40px;
+	width: 650px;
+	background-color: white;
+	-webkit-box-shadow: 1px 1px 1px #afafe9;
+	-moz-box-shadow: 1px 1px 1px #afafe9;
+	box-shadow: 1px 1px 1px #afafe9;
+	border: 1px solid #afafe9; 
+	padding-left: 15px;
+	font-size: 1em;
+}
+
+.toplink {
+	margin: 35px 20px 0 0;
+	float: right;
+}
+
+.sign {
+	background-color: #2a7fff;
+	color: white;
+	padding: 8px 15px;
+	border: none;
+	margin-top: 25px;
+}
+
+a {
+	text-decoration: none;
+	color: #7e7e7e;
+	font-family: Roboto, Helvetica, sans-serif;
+	font-size: .85em;
+}
+
+a:hover {
+	color: #404040;
+	cursor: pointer;
+}
+
+.topNav {
+	background-color: #fafafa;
+	width: 100%;
+	border-bottom: 1px solid #afafe9;
+}
+
+.navbarOne {
+	width: 650px;
+	margin-left: 150px;
+/*	padding-bottom: 15px; */
+}
+
+.secondLink {
+	margin: 0 20px 0 0;
+}
+
+.rightLink {
+	float: right;
+}
+
+.firstLink {
+	font-weight: 900;
+	color: #2a7fff;
+	border: none;
+	border-bottom: 3px solid #2a7fff;
+	padding: 0 13px 10px 13px;
+	background-color: #fafafa;
+}
+/*
+#tool {
+	
+}
+*/
+#tool:hover {
+	border: solid 1px #afafe9;
+	
+}
+
+/***********************************************
+Main body of the Page 
+************************************************/
+
+.centre {
+	margin-left: 160px;
+	width: 620px;
+}
+
+.results {
+	margin: 13px 0 26px 0;
+}
+
+.date,
+.results p {
+	font-size: 0.85em;
+	color: #858585;
+}
+
+.oneResult {
+	margin-bottom: 26px;
+}
+.srchResHead {
+	color: #1a0dab;
+	font-weight: 400;
+	font-size: 1.2em;
+}
+
+.srchResHead:hover {
+	color: #1a0dab;
+	text-decoration: underline;
+}
+
+.subhead {
+	color: #006621;
+	font-size: 1em;
+}
+
+.adLine {
+	color: #585858;
+	font-size: 0.85em;
+	letter-spacing: -0.02em;
+	margin: 2px 0 2px 0;
+}
+
+/*
+ Clear default margins for h3, h4 
+h3, h2, h4 {
+	margin: 0;	
+	padding: 0;
+}
+*/
+
+.buildWebLink {
+	display: inline;
+	color: #1a0dab;
+}
+
+.searchResultHead:hover ,
+.buildWebLink:hover {
+	text-decoration: underline;
+	color: #1a0dab;
+}
+
+.dot {
+	color: #1a0dab;
+}
+
+.oneResult p {
+	color: #585858;
+	font-size: 0.85em;
+	letter-spacing: -0.02em;
+}
