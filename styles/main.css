@@ -94,10 +94,15 @@ a:hover {
 	cursor: pointer;
 }
 
+.sign:hover {
+	color: white;
+	cursor: default;
+}
+
 .topNav {
 	background-color: #fafafa;
 	width: 100%;
-	border-bottom: 1px solid #afafe9;
+	border-bottom: 1px solid #eee;
 }
 
 .navbarOne {
@@ -198,6 +203,7 @@ h3, h2, h4 {
 
 .dot {
 	color: #1a0dab;
+	vertical-align: middle;
 }
 
 .oneResult p {
@@ -205,3 +211,155 @@ h3, h2, h4 {
 	font-size: 0.85em;
 	letter-spacing: -0.02em;
 }
+
+#searches {
+	font-size: 1.1em;
+	color: #202020;
+	margin-bottom: 17px;
+}
+
+.related {
+	width: 49.5%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.relLinks {
+	margin-bottom: 6px;
+}
+
+.relLinks a {
+	color: #1a0dab;
+	text-decoration: none;
+	font-size: .9em;
+	font-weight: 900;
+}
+
+.relLinks a:hover {
+	text-decoration: underline;
+}
+
+#navLogo {
+	margin: 20px 0 0 160px;
+/*	background: url(https://www.google.com.au/images/nav_logo242.png" alt="Gooooooogle) no-repeat;
+	position: -24px 0;
+	width: 28px; */
+	height: 40px;
+/*	display: block; */
+	float: left;
+	padding-right: 2px;
+	
+}
+
+.subFooter {
+	height: 2.5em;
+	width: 100%;
+	background-color: #f2f2f2;
+	border-top: 1px solid #ddd;
+	
+}
+
+.subFooterTop {
+	margin-top: 15px;
+}
+
+/*
+.redO {
+	width: 20px;
+	text-align: center;
+	font-size: 0.85em;
+	
+}
+
+.yellowO {
+	width: 20px;
+	text-align: center;
+
+}
+
+.yellowO a {
+	color: #4670ba;
+}
+*/
+
+#endGle {
+	display: inline-block;
+	margin-top: 15px;	
+	
+	
+}
+
+/*
+#firstCell {
+	width: 28px;
+}
+*/
+
+#lineOfNum {
+	clear: left;
+	margin: 0 0 0 188px;
+}
+
+.number {
+	width: 22px;
+	text-align: center;
+	font-size: 0.9em;
+	font-family: Roboto, Helvetica, sans-serif;
+}
+
+.number a {
+	color: #549ed6;
+	font-size: 0.9em;
+	font-family: Roboto, Helvetica, sans-serif;
+}
+
+.nextText a:hover, 
+.number a:hover {
+	text-decoration: underline;
+}
+	
+.nextText {
+	width: 90px;
+	text-align: right;
+}
+
+.nextText  a{
+	color: #549ed6;
+}
+
+#country {
+	font-size: .9em;
+	color: #5e5e5e;
+}
+
+.subFooter p {
+	margin-left: 160px;
+	margin-top: 0.75em;
+}
+
+#greyDot {
+	margin-left: 25px;
+	margin-right: 3px;
+}
+
+#locale {
+	color: darkgrey;
+	font-size: 0.8em;
+}
+
+#learning {
+	color: #5e5e5e;
+	font-size: 0.8em;
+}
+
+#botNav {
+	margin-left: 160px;
+	margin-top: 10px;
+}
+
+.footerNav {
+	margin-right: 20px;
+	margin-top: .75em
+}
+
+
